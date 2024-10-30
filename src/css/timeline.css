@@ -6,7 +6,15 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../images/logo.jpg');
+/* background-size: cover; */
+background-position: center;
+background-attachment: fixed;
+/* background-position: fixed; */
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 *{
     margin: 0%;
@@ -20,4 +28,25 @@
     padding: 10px;
     font-size: 90px;
     /* border-bottom: 3px solid white; */
+}
+@media (max-width: 768px) {
+    .head {
+        font-size: 50px;  /* Decrease font size on smaller screens */
+        padding: 8px;
+    }
+    
+    .img {
+        width: 100%; /* Full width on smaller screens */
+    }
+    
+    .all {
+        padding: 5px; /* Slight padding to avoid overflow on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        font-size: 36px;  /* Further decrease font size for phone screens */
+        padding: 5px;
+    }
 }

@@ -4,7 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import AbcIcon from "@mui/icons-material/Abc";
+//  "@mui/icons-material/Abc";
+ import AbcIcon from '@mui/icons-material/MilitaryTech';
 import A from "../images/a1.jpg";
 import IDSSC from "../images/idssc.jpg";
 import C from "../images/cws.jpg";

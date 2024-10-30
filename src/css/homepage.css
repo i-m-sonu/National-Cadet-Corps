@@ -31,3 +31,19 @@
     text-align: center;
 
 }
+.con{
+    margin: 300px;
+    padding: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    border-radius: 50px;
+}
+.un{
+    text-decoration: none;
+}
+@media (max-width: 600px){
+    .con{
+        margin: 30px;
+    padding: 30px;
+
+    }
+}

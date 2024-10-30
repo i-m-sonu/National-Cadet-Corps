@@ -16,7 +16,7 @@ body {
 
 .navbar-brand {
     color: white;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-menu li {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .navbar-menu a {
