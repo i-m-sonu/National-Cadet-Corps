@@ -29,6 +29,14 @@ import RDC20 from "../images/rdc20.jpeg";
 import YEP19 from "../images/yep19.jpeg";
 import CGC from "../images/cgc.jpeg";
 import RDC19 from "../images/rdc19.jpeg";
+import YEP18 from "../images/yep18.jpg";
+import PDLC from "../images/pdlc.jpg";
+import RDC18 from "../images/rdc18.jpg";
+import YEP17 from "../images/yep17.jpg";
+import AAC from "../images/aac.jpg";
+import RDC17 from "../images/rdc17.jpg";
+
+
 
 import "../css/timeline.css";
 const MyTimeline = () => {
@@ -480,8 +488,115 @@ const MyTimeline = () => {
             Republic Day camp held at NCC New Delhi from 31st Dec 2018-31st Jan
             2019 which one cadets of CEC participated . S.U.O Kunal Sagar
           </p>
+        </VerticalTimelineElement>
 
-          
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2018"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Youth Exchange Programme
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">2018</h4>
+          <img src={YEP18} className="img" alt="Camp" />
+
+          <p>
+            SUO Medhavi Tomar of CEC selected for prestigious Youth Exchange
+            Programme at Srilanka from 20th Oct-29th Oct 2018.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2018"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">PDLS</h3>
+          <h4 className="vertical-timeline-element-subtitle">2018</h4>
+          <img src={PDLC} className="img" alt="Camp" />
+
+          <p>
+            Personality Development & Leadership Skill camp held at Jalandhar
+            from 10th Sep-19th Sep 2018. 01 Cadet of CEC participated in this
+            camp.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2018"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Republic Day Camp</h3>
+          <h4 className="vertical-timeline-element-subtitle">2018</h4>
+          <img src={RDC18} className="img" alt="Camp" />
+
+          <p>
+            Republic Day camp held at NCC New Delhi in which two cadets of CEC
+            participated . S.U.O Medhavi Tomar U.O Archit Awasthi from 31st Dec
+            2017-29stJan 2018.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Youth Exchange Programme
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">2017</h4>
+          <img src={YEP17} className="img" alt="Camp" />
+
+          <p>
+            SUO Sanjeet Singh of CEC selected for prestigious Youth Exchange
+            Programme at Bangladesh . He represent as Youth Ambassador of India
+            at Bangladesh from 14th Dec-24th Dec 2017.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+          Army Attachment Camp
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">2017</h4>
+          <img src={AAC} className="img" alt="Camp" />
+
+          <p>
+          Army Attachment camp held at Patiala under Hq 1 Armoured Division from 03rd Oct-17th Oct 2017.
+In this camp cadets were exposed to Daily life of Indian Army.
+
+          </p>
+        </VerticalTimelineElement>
+
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<AbcIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">Republic Day Camp</h3>
+          <h4 className="vertical-timeline-element-subtitle">2017</h4>
+          <img src={RDC17} className="img" alt="Camp" />
+
+          <p>
+          Republic Day Camp held at NCC New Delhi in    which two cadets of CEC participated .
+S.U.O Sanjeet Singh
+S.U.O Bikramjot Singh  from 31st Dec 2016-29stJan 2017.
+
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
