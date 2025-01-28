@@ -21,7 +21,7 @@ const App = () => {
       <Footer />
     </Router> */}
     <MyTimeline />
-    <Footer />
+ //   <Footer />
     </>
   );
 };
